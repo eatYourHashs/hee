@@ -1,0 +1,55 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "enchantment.hee.colossus",
+    "fallback": "Colossus"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "hee:colossus",
+        "attribute": "minecraft:generic.scale",
+        "amount": 0.5,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "id": "hee:colossus",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "amount": 0.4,
+        "operation": "add_value"
+      },
+      {
+        "id": "hee:colossus",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": 1,
+        "operation": "add_value"
+      },
+      {
+        "id": "hee:colossus",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": 1,
+        "operation": "add_value"
+      },
+      {
+        "id": "hee:colossus",
+        "attribute": "minecraft:generic.step_height",
+        "amount": 0.5,
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 2
+}

@@ -1,0 +1,37 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "enchantment.hee.antigrav",
+    "fallback": "Antigrav"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "hee:antigrav",
+        "attribute": "minecraft:generic.gravity",
+        "amount": -0.5,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "id": "hee:antigrav",
+        "attribute": "minecraft:generic.fall_damage_multiplier",
+        "amount": -0.5,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}
