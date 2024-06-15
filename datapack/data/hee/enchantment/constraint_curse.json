@@ -1,0 +1,37 @@
+{
+  "description": {
+    "translate": "enchantment.hee.constraint_curse",
+    "fallback": "Curse of Constraint"
+  },
+  "supported_items": "#hee:enchantable/held",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "hee:constraint_curse",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": -1,
+        "operation": "add_value"
+      },
+      {
+        "id": "hee:constraint_curse",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": -1,
+        "operation": "add_value"
+      }
+    ]
+  }
+}
