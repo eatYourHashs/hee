@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:enderman",
+    "minecraft:camel",
+    "minecraft:iron_golem",
+    "minecraft:breeze",
+    "minecraft:elder_guardian",
+    "minecraft:guardian",
+    "minecraft:hoglin",
+    "minecraft:zoglin",
+    "minecraft:piglin_brute",
+    "minecraft:ravager",
+    "minecraft:shulker",
+    "minecraft:warden",
+    "#hee:bosses",
+    "minecraft:illusioner",
+    "minecraft:giant"
+  ]
+}
