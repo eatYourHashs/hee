@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 9
+          "weight": 7
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
